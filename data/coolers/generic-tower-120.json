@@ -1,0 +1,11 @@
+{
+  "type": "tower",
+  "id": "generic-tower-120",
+  "name": "Single tower, 120 mm fan",
+  "generic": true,
+  "fins": { "fromBoard": 125, "across": 125, "alongAirflow": 50, "baseGap": 30 },
+  "fanSize": 120,
+  "fanCount": 1,
+  "airResistance": { "pressurePa": 20, "atFlowCfm": 50 },
+  "thermal": { "kelvinPerWatt": 0.15, "atFlowCfm": 50 }
+}

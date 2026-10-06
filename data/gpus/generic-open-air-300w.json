@@ -1,0 +1,19 @@
+{
+  "id": "generic-open-air-300w",
+  "name": "GPU, 300 W, 3 fans (generic)",
+  "generic": true,
+  "length": 300,
+  "height": 125,
+  "slots": 2.5,
+  "idleWatts": 20,
+  "maxWatts": 300,
+  "cooler": "open-air",
+  "fanSize": 92,
+  "fanCount": 3,
+  "fanMaxFlowCfm": 35,
+  "fanMaxPressureMmH2O": 2.5,
+  "airResistance": { "pressurePa": 25, "atFlowCfm": 60 },
+  "thermal": { "kelvinPerWatt": 0.11, "atFlowCfm": 90 },
+  "fanSpeedIdle": 0.3,
+  "fanSpeedMax": 0.7
+}

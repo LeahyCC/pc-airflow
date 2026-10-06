@@ -1,0 +1,10 @@
+{
+  "id": "generic-120",
+  "name": "Standard 120 mm fan",
+  "generic": true,
+  "size": 120,
+  "maxRpm": 1800,
+  "maxFlowCfm": 60,
+  "maxPressureMmH2O": 2.0,
+  "noiseDbA": 30
+}

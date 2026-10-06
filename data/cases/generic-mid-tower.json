@@ -1,0 +1,50 @@
+{
+  "id": "generic-mid-tower",
+  "name": "Mid tower (generic)",
+  "generic": true,
+  "inside": { "width": 220, "height": 460, "depth": 430 },
+  "motherboards": ["atx", "micro-atx", "mini-itx"],
+  "panels": {
+    "front": { "kind": "mesh", "openArea": 0.7 },
+    "top": { "kind": "mesh", "openArea": 0.6 },
+    "rear": { "kind": "mesh", "openArea": 0.5 },
+    "bottom": { "kind": "solid" },
+    "left": { "kind": "glass" },
+    "right": { "kind": "solid" },
+    "shroud": { "kind": "solid" }
+  },
+  "mounts": [
+    {
+      "id": "front",
+      "panel": "front",
+      "firstSlotCentre": [110, 120, 13],
+      "slotAxis": "y",
+      "slots": 3,
+      "slotSpacing": 125,
+      "fanSizes": [120],
+      "filter": true
+    },
+    {
+      "id": "top",
+      "panel": "top",
+      "firstSlotCentre": [130, 447, 110],
+      "slotAxis": "z",
+      "slots": 2,
+      "slotSpacing": 125,
+      "fanSizes": [120],
+      "filter": true
+    },
+    {
+      "id": "rear",
+      "panel": "rear",
+      "firstSlotCentre": [150, 370, 417],
+      "slotAxis": "y",
+      "slots": 1,
+      "slotSpacing": 125,
+      "fanSizes": [120]
+    }
+  ],
+  "psu": { "location": "bottom", "shroud": true, "shroudHeight": 90 },
+  "maxGpuLength": 380,
+  "maxCoolerHeight": 170
+}

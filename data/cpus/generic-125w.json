@@ -1,0 +1,8 @@
+{
+  "id": "generic-125w",
+  "name": "Mid-range CPU (125 W)",
+  "generic": true,
+  "idleWatts": 25,
+  "maxWatts": 125,
+  "internalKPerW": 0.15
+}
